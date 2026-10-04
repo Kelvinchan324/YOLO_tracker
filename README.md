@@ -12,7 +12,7 @@ assemblies, along with neutral CAD exports where available.
   `camer_tracker.SLDASM` top-level assembly.
 - `cad/3D printing files/` — the grouped design files previously packaged as
   the sharing revision.
-- `cad/Easy_version/` — simplified tracker design, including the main
+- `cad/educational version/` — simplified educational tracker design, including the main
   `camer_tracker_easy.SLDASM` assembly and electronics enclosure.
 - `cad/distance_sensor-1.snapshot.12/` — distance-sensor reference model,
   images, datasheet, and STEP files.
@@ -32,7 +32,7 @@ assembly and its component files together when downloading or moving them.
 
 For the camera tracker with laser, open
 `cad/camera tracker with laser/camer_tracker.SLDASM` in SolidWorks. For the
-simplified design, open `cad/Easy_version/camer_tracker_easy.SLDASM`.
+simplified design, open `cad/educational version/camer_tracker_easy.SLDASM`.
 
 Archive files that duplicated folders already included in this repository were
 left out to avoid storing the same large binary files twice.
