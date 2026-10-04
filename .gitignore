@@ -9,5 +9,10 @@
 Thumbs.db
 desktop.ini
 
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+
 # Redundant packaged archives
 *.zip

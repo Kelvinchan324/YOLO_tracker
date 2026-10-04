@@ -3,6 +3,20 @@
 Mechanical design files for a two-axis camera and sensor tracker intended for
 YOLO-based object-tracking projects.
 
+## Teaching materials
+
+- [`Workshop: Build Your Own YOLO Tracker`](teaching_materials/Workshop_Build_Your_Own_YOLO_Tracker.pdf)
+  - the complete 65-page assembly, wiring, calibration, and testing guide.
+
+## Gimbal control software
+
+The [`software`](software) directory contains a Raspberry Pi controller for
+the two STS3215 motors used by the workshop tracker. It uses servo ID `1` for
+yaw and servo ID `2` for pitch, reads each unit's current center position, and
+supports manual arrow-key control through the ESP32 driver's serial-forwarding
+mode. See the [software instructions](software/README.md) before powering the
+motors.
+
 ## CAD contents
 
 The [`cad`](cad) directory contains the original SolidWorks models and
