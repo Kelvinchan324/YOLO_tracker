@@ -1,0 +1,12 @@
+# CAD and office files are binary; do not attempt text diffs or line-ending conversion.
+*.SLDPRT binary
+*.SLDASM binary
+*.SLDDRW binary
+*.STEP binary
+*.STP binary
+*.STL binary
+*.3mf binary
+*.xls binary
+*.pdf binary
+*.jpg binary
+*.JPG binary

@@ -1,0 +1,13 @@
+# SolidWorks temporary and backup files
+~$*
+*.sldprt~
+*.sldasm~
+*.slddrw~
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Redundant packaged archives
+*.zip
