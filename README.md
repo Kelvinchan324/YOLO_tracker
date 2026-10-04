@@ -14,8 +14,9 @@ The [`software`](software) directory contains a Raspberry Pi controller for
 the two STS3215 motors used by the workshop tracker. It uses servo ID `1` for
 yaw and servo ID `2` for pitch, reads each unit's current center position, and
 supports manual arrow-key control through the ESP32 driver's serial-forwarding
-mode. See the [software instructions](software/README.md) before powering the
-motors.
+mode. The [software instructions](software/README.md) include a dedicated
+Raspberry Pi Python and `scservo_sdk` setup section; read it before powering
+the motors.
 
 ## CAD contents
 

@@ -247,7 +247,7 @@ def build_parser() -> argparse.ArgumentParser:
         description="Control a two-axis STS3215 camera gimbal with arrow keys."
     )
     parser.add_argument("--port", default="/dev/ttyUSB0")
-    parser.add_argument("--baudrate", type=int, default=1_000_000)
+    parser.add_argument("--baudrate", type=int, default=115_200)
     parser.add_argument("--yaw-id", type=int, default=1)
     parser.add_argument("--pitch-id", type=int, default=2)
     parser.add_argument("--step", type=int, default=32)
